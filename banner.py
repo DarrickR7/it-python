@@ -10,7 +10,8 @@ def banner(subject, author):
     print("><" * (banner_length // 2))
     print("")
 
-banner("Get Out my Swamp", "Darrick Russell")
-subject = input("What is the subject? ")
-author = input("Who is the author? ")
-banner(subject, author)
+if __name__ == "__main__":
+    banner("Get Out my Swamp", "Darrick Russell")
+    subject = input("What is the subject? ")
+    author = input("Who is the author? ")
+    banner(subject, author)
